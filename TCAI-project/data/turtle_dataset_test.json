@@ -1,0 +1,1272 @@
+[
+  {
+    "instruction": "烏龜通常能活幾年？",
+    "input": "",
+    "output": "小型烏龜壽命約20年左右，而大型種類如象龜可活超過百年。"
+  },
+  {
+    "instruction": "烏龜有沒有排尿的行為？",
+    "input": "",
+    "output": "陸生龜類會排尿，水棲龜則排出氨。"
+  },
+  {
+    "instruction": "烏龜會排尿液嗎？",
+    "input": "",
+    "output": "陸地生活的龜會排尿，水中的則排氨。"
+  },
+  {
+    "instruction": "烏龜如何排出體內廢物？",
+    "input": "",
+    "output": "陸龜會尿尿，水龜則排氨。"
+  },
+  {
+    "instruction": "烏龜壽命會受到哪些因素影響？",
+    "input": "",
+    "output": "壽命會受品種差異、棲地環境、飲食與活動空間等影響。"
+  },
+  {
+    "instruction": "什麼會影響烏龜的壽命？",
+    "input": "",
+    "output": "品種、環境條件、食物種類與健康狀況都會影響壽命。"
+  },
+  {
+    "instruction": "請問龜殼的結構是什麼？",
+    "input": "",
+    "output": "龜甲是由肋骨變化形成的。"
+  },
+  {
+    "instruction": "烏龜的殼是什麼構造？",
+    "input": "",
+    "output": "其龜殼其實就是變形的肋骨。"
+  },
+  {
+    "instruction": "龜殼是怎麼來的？",
+    "input": "",
+    "output": "龜甲來自肋骨的演變。"
+  },
+  {
+    "instruction": "烏龜是什麼類型的動物？",
+    "input": "",
+    "output": "烏龜屬於爬蟲類動物。"
+  },
+  {
+    "instruction": "請問烏龜屬於哪一類動物？",
+    "input": "",
+    "output": "烏龜與蛇、蜥蜴等同為爬蟲類。"
+  },
+  {
+    "instruction": "烏龜如何呼吸？",
+    "input": "",
+    "output": "烏龜是用肺來呼吸空氣。"
+  },
+  {
+    "instruction": "請問烏龜怎麼呼吸？",
+    "input": "",
+    "output": "牠們透過肺進行呼吸。"
+  },
+  {
+    "instruction": "烏龜的呼吸方式是什麼？",
+    "input": "",
+    "output": "烏龜利用肺呼吸。"
+  },
+  {
+    "instruction": "烏龜蛋多久會孵出來？",
+    "input": "",
+    "output": "大約90天左右可見幼龜孵化。"
+  },
+  {
+    "instruction": "孵化時間？（簡單說明）",
+    "input": "",
+    "output": "約60～120天。"
+  },
+  {
+    "instruction": "世界上最小的烏龜品種是什麼？",
+    "input": "",
+    "output": "斑點珍龜（學名：Homopus signatus）是珍龜屬下小型龜，世上最小的龜之一。原生於南非和納米比亞南部。"
+  },
+  {
+    "instruction": "最小烏龜叫什麼？",
+    "input": "",
+    "output": "名稱為斑點珍龜。"
+  },
+  {
+    "instruction": "請問世界最大龜類？",
+    "input": "",
+    "output": "加拉巴哥象龜體型最大。"
+  },
+  {
+    "instruction": "最大烏龜？（簡單說明）",
+    "input": "",
+    "output": "加拉巴哥象龜。"
+  },
+  {
+    "instruction": "烏龜的耳朵在哪裡？",
+    "input": "",
+    "output": "沒有外耳，但內部有聽覺系統。"
+  },
+  {
+    "instruction": "烏龜聽得到聲音嗎？",
+    "input": "",
+    "output": "烏龜對空氣聲音較不敏感，但能感知震動。"
+  },
+  {
+    "instruction": "烏龜有齒嗎？",
+    "input": "",
+    "output": "其嘴部邊緣像刀一樣鋒利。"
+  },
+  {
+    "instruction": "烏龜在哪個季節繁殖？",
+    "input": "",
+    "output": "繁殖期通常落在春天到夏天。"
+  },
+  {
+    "instruction": "烏龜通常何時繁殖？",
+    "input": "",
+    "output": "繁殖集中在春夏期間。"
+  },
+  {
+    "instruction": "養龜環境要注意什麼？",
+    "input": "",
+    "output": "環境溫度與飲食很重要。"
+  },
+  {
+    "instruction": "養龜？（簡單說明）",
+    "input": "",
+    "output": "溫度＋日照＋營養。"
+  },
+  {
+    "instruction": "祖先？（簡單說明）",
+    "input": "",
+    "output": "祖龜。"
+  },
+  {
+    "instruction": "你知道烏龜的學名嗎？",
+    "input": "",
+    "output": "烏龜的正式分類為龜鱉目。"
+  },
+  {
+    "instruction": "烏龜起源可以說明嗎？",
+    "input": "",
+    "output": "烏龜演化自約2億多年前的祖龜。"
+  },
+  {
+    "instruction": "烏龜可以離開背甲嗎?",
+    "input": "",
+    "output": "不可以，背甲是身體的一部分。"
+  },
+  {
+    "instruction": "烏龜能脫殼嗎？",
+    "input": "",
+    "output": "不能，殼包含重要器官。"
+  },
+  {
+    "instruction": "請問烏龜聽力如何？",
+    "input": "",
+    "output": "牠們對聲音不敏感，但能感知震動。"
+  },
+  {
+    "instruction": "你知道烏龜聽力嗎？",
+    "input": "",
+    "output": "主要依靠震動傳導聲音。"
+  },
+  {
+    "instruction": "烏龜被翻面怎麼辦?",
+    "input": "",
+    "output": "通常會自行翻正，利用四肢與頭部。"
+  },
+  {
+    "instruction": "你知道烏龜翻面怎麼辦嗎？",
+    "input": "",
+    "output": "會利用身體動作翻正。"
+  },
+  {
+    "instruction": "烏龜交配年齡？",
+    "input": "",
+    "output": "通常需達一定體型。"
+  },
+  {
+    "instruction": "你知道烏龜體溫類型嗎？",
+    "input": "",
+    "output": "牠們需透過陽光調節體溫。"
+  },
+  {
+    "instruction": "烏龜體溫如何調節？",
+    "input": "",
+    "output": "體溫會隨環境改變。"
+  },
+  {
+    "instruction": "請問烏龜能聽聲音嗎？",
+    "input": "",
+    "output": "牠雖無外耳，但能聽低頻聲。"
+  },
+  {
+    "instruction": "請問烏龜是群居嗎？",
+    "input": "",
+    "output": "通常喜歡單獨生活。"
+  },
+  {
+    "instruction": "烏龜習性如何？",
+    "input": "",
+    "output": "多數時間獨居。"
+  },
+  {
+    "instruction": "烏龜生活方式？",
+    "input": "",
+    "output": "多為獨居。"
+  },
+  {
+    "instruction": "如何判斷烏龜的性別?",
+    "input": "",
+    "output": "可透過腹甲、尾巴與肛門位置判斷。"
+  },
+  {
+    "instruction": "如何辨識公母龜？",
+    "input": "",
+    "output": "體型也可參考。"
+  },
+  {
+    "instruction": "烏龜需要水嗎？",
+    "input": "",
+    "output": "需保持水源充足。"
+  },
+  {
+    "instruction": "烏龜會口渴嗎？",
+    "input": "",
+    "output": "會喝水。"
+  },
+  {
+    "instruction": "烏龜的視力如何？",
+    "input": "",
+    "output": "烏龜能看到顏色且視覺良好。"
+  },
+  {
+    "instruction": "烏龜看得遠嗎？",
+    "input": "",
+    "output": "視覺範圍廣。"
+  },
+  {
+    "instruction": "視力？（簡單）",
+    "input": "",
+    "output": "可看顏色。"
+  },
+  {
+    "instruction": "你知道龜舌頭嗎？",
+    "input": "",
+    "output": "缺乏營養可能影響舌頭。"
+  },
+  {
+    "instruction": "龜舌頭如何？",
+    "input": "",
+    "output": "舌頭存在。"
+  },
+  {
+    "instruction": "烏龜會休眠嗎？",
+    "input": "",
+    "output": "冬眠幫助保存能量。"
+  },
+  {
+    "instruction": "冬眠？（簡單）",
+    "input": "",
+    "output": "會。"
+  },
+  {
+    "instruction": "烏龜的食物是如何消化的？",
+    "input": "",
+    "output": "烏龜的食物經過堅硬的喙切割後，食道送至胃部進行初步消化，再經過小腸吸收營養，未消化部分通過大腸排出。"
+  },
+  {
+    "instruction": "烏龜有家庭結構嗎？",
+    "input": "",
+    "output": "大多數烏龜不是群居動物，沒有明確的家庭結構，通常獨立生活。"
+  },
+  {
+    "instruction": "烏龜的社交行為是什麼樣的？",
+    "input": "",
+    "output": "烏龜的社交行為有限，牠們通常以獨立方式行動，主要在繁殖季節才互動。"
+  },
+  {
+    "instruction": "烏龜的背甲和腹甲是由什麼演化而來的？",
+    "input": "",
+    "output": "背甲是由肋骨延伸而來，腹甲則由腹側肩胛與肋骨融合形成。"
+  },
+  {
+    "instruction": "「龜」字的上下部份，分別象徵什麼？",
+    "input": "",
+    "output": "上部是頭與背甲，下部是尾巴。"
+  },
+  {
+    "instruction": "「援黛失信」這句話是什麼意思？與烏龜有什麼關聯？",
+    "input": "",
+    "output": "原指烏龜被視為靈獸之一，但與螢外形相似，卻地位懸殊，形容求得虛假讒言的官員，如同「失信」。"
+  },
+  {
+    "instruction": "原住民是如何將龜殼用於樂器演奏的？",
+    "input": "",
+    "output": "龜殼與木板組成「龜鼓」，在樂隊演奏時會擊打龜殼，發出清脆聲音作為節奏。"
+  },
+  {
+    "instruction": "紅龜粿常用什麼材料製作？",
+    "input": "",
+    "output": "糯米粉製成的外皮，內餡常為甜豆沙、花生、芝麻等。"
+  },
+  {
+    "instruction": "古人使用什麼工具製作紅龜粿的外型？",
+    "input": "",
+    "output": "龜形木模。"
+  },
+  {
+    "instruction": "烏龜用什麼器官呼吸？",
+    "input": "",
+    "output": "用肺呼吸。"
+  },
+  {
+    "instruction": "為何烏龜呼吸時胸腔無法像哺乳類動物那樣擴張？",
+    "input": "",
+    "output": "因為肋骨與胸骨已與龜殼結構固定。"
+  },
+  {
+    "instruction": "水生烏龜的腳掌有何特徵？",
+    "input": "",
+    "output": "足部多為蹼狀，方便游泳。"
+  },
+  {
+    "instruction": "烏龜的耳朵位於哪個位置？其外觀是什麼樣子？",
+    "input": "",
+    "output": "位於眼睛後方，是圓形的膜狀構造，外觀平整，為聽覺器官。"
+  },
+  {
+    "instruction": "「龜速」的由來與實際是否相符？",
+    "input": "",
+    "output": "雖說「龜速」形容緩慢，但有紀錄顯示龜最快可達每小時 5.5 公尺，並非完全緩慢。"
+  },
+  {
+    "instruction": "烏龜的肩胛骨與骨盆位於哪裡？",
+    "input": "",
+    "output": "位於胸腔內側，與脊椎骨和肋骨包覆的腔室共同形成一體。"
+  },
+  {
+    "instruction": "烏龜的甲殼具有什麼功能？",
+    "input": "",
+    "output": "保護內臟、防禦天敵、減少水分蒸發與外傷。"
+  },
+  {
+    "instruction": "為什麼烏龜的骨骼被認為是陸生爬蟲類適應的進化結果？",
+    "input": "",
+    "output": "因為其骨架與殼融合且內部化，有利於防禦掠食與適應環境變化。"
+  },
+  {
+    "instruction": "烏龜的個性多半是什麼樣的？",
+    "input": "",
+    "output": "安靜、低調獨立，行動緩慢，適合安靜空間。"
+  },
+  {
+    "instruction": "一般購買小烏龜的價格約多少？",
+    "input": "",
+    "output": "一般常見的寵物澤龜價格在40元到數千元不等，而比較有特色的龜種或是陸龜，大概在1500至數萬元新台幣之間。"
+  },
+  {
+    "instruction": "飼養烏龜最大的開銷通常是什麼？",
+    "input": "",
+    "output": "飼養設備，如燈具、溫濕控、UVB 燈、烏龜缸等。最大的費用則是醫藥費，檢查可能會花費1000至2000元新台幣，如果再加上抽血、X光等檢驗費或手術則有可能累積到數萬元。"
+  },
+  {
+    "instruction": "新手挑選小烏龜時，有哪些品種推薦？",
+    "input": "",
+    "output": "澤龜可選紅耳龜、斑龜、地圖龜、甜甜圈龜等較常見且好飼養的品種。陸龜建議挑選歐系陸龜、紅腿象龜或是蘇卡達象龜，較好照顧。"
+  },
+  {
+    "instruction": "餵食後是否需要清潔？",
+    "input": "",
+    "output": "是。應清除剩食以避免腐敗污染水質，尤其是水龜。"
+  },
+  {
+    "instruction": "雜食龜可以吃昆蟲或魚嗎？",
+    "input": "",
+    "output": "可以。可餵蝦、蟲、小型蠕蟲或貓狗飼料，但不可當作唯一主食。"
+  },
+  {
+    "instruction": "需要設置躲藏物嗎？",
+    "input": "",
+    "output": "需要。烏龜喜歡有躲藏空間的環境，建議設一個小屋或遮蔽物，能降低牠們的緊張感。"
+  },
+  {
+    "instruction": "濕度需要控制嗎？該控制在多少？",
+    "input": "",
+    "output": "水生龜需控制濕度低於 50%，有助於呼吸道健康。\n\n熱帶雨林型陸龜需相對濕度達 70% 以上，才能維持正常代謝與脫殼。"
+  },
+  {
+    "instruction": "如果沒法讓烏龜曬太陽，怎麼辦？",
+    "input": "",
+    "output": "可使用 爬蟲專用日照燈具 提供 UVB。\n\n建議每天開燈時間要固定，模擬自然日照節律。"
+  },
+  {
+    "instruction": "秋天來臨，烏龜的身體會有什麼變化？",
+    "input": "",
+    "output": "隨氣溫下降，烏龜活動力變弱，食慾下降，有些會進入產卵期。\n\n如果已交配，要準備適合產卵的環境並留意母龜的狀態。\n\n保持恆溫與補充紫外線，避免牠們提前冬眠或出現代謝異常。"
+  },
+  {
+    "instruction": "烏龜不冬眠可以嗎？",
+    "input": "",
+    "output": "可以！台灣屬亞熱帶氣候，冬天相對溫暖。\n如果提供穩定保暖的飼養環境，烏龜可不必冬眠，只需提高溫度、延長照光時間以刺激活動力。"
+  },
+  {
+    "instruction": "如何為烏龜打造冬眠環境？",
+    "input": "",
+    "output": "準備一個深 20～30 公分的冬眠箱或大盆，內放濕潤泥土＋枯葉。\n\n降低光照時間，維持穩定低溫（不可忽冷忽熱）。\n\n若為水棲龜，需將其放入深水區進行「水中冬眠」。"
+  },
+  {
+    "instruction": "台灣幾月開始冬眠？",
+    "input": "",
+    "output": "大約是每年 10 月左右（入秋時），氣溫轉涼後就會有明顯跡象，如食慾減退、活動減弱。"
+  },
+  {
+    "instruction": "烏龜冬眠前需要注意什麼？",
+    "input": "",
+    "output": "冬眠風險高，約有 25% 烏龜在冬眠中死亡。\n\n務必先確認烏龜健康良好、體力充足、無潛在疾病。\n\n冬眠前應至少觀察兩週，中止餵食並排空腸胃，才能進入真正休眠。"
+  },
+  {
+    "instruction": "所有烏龜都可以冬眠嗎？",
+    "input": "",
+    "output": "不行！以下品種不建議冬眠：\n\n由自然界中、溫暖地區孵化的小烏龜\n\n體型過小（幼龜）、體弱、患病、受傷、蟲病中\n\n體內有寄生蟲者（會導致虛弱甚至死亡）"
+  },
+  {
+    "instruction": "為什麼說「巴西龜」是有危害的外來種？",
+    "input": "",
+    "output": "巴西龜體型不大、外觀可愛、容易取得，因此被大量飼養。\n\n然而牠們繁殖力極強、性格強勢且攻擊性高，極易適應環境。\n\n若被任意放生，會造成生態系統嚴重破壞，威脅台灣原生龜類及其他水域生物的生存。"
+  },
+  {
+    "instruction": "黃頭側頸龜原產地是哪裡？適合台灣飼養嗎？",
+    "input": "",
+    "output": "分布於南美洲亞馬遜河、奧里諾科河流域等熱帶地區。\n\n不適合野放或在台灣自然水域中飼養，需控溫且空間大。"
+  },
+  {
+    "instruction": "為什麼黃頭側頸龜會被列入保育類？有什麼風險？",
+    "input": "",
+    "output": "牠們在野外常被當作觀賞龜或食用龜捕捉，曾因過度捕撈造成族群大幅下降。\n\n因此被列入保育名單並進行復育計劃。\n\n雖然目前已有人工繁育，但盜獵與非法販售的情況仍未根絕。"
+  },
+  {
+    "instruction": "楓葉龜的體型如何？",
+    "input": "",
+    "output": "背甲最大長度可達 45 公分。\n\n顏色多為黃褐色或棕色，外型扁平寬大，有極佳的水中隱蔽性。"
+  },
+  {
+    "instruction": "楓葉龜適合一般新手飼養嗎？",
+    "input": "",
+    "output": "因體型大、需大量水域空間，且屬肉食性，不建議新手飼養。\n\n需要穩定的水質管理與活餌供應，較適合經驗豐富的飼主。"
+  },
+  {
+    "instruction": "食蛇龜吃什麼？",
+    "input": "",
+    "output": "以昆蟲、蝸牛、蚯蚓、魚、蝦類與水果為主，屬雜食性。\n\n雖屬陸棲龜，但喜歡短暫泡水活動，是目前唯一常見的「半水陸性地龜」。"
+  },
+  {
+    "instruction": "柴棺龜個性如何？",
+    "input": "",
+    "output": "牠們個性偏敏感謹慎，移動速度較慢，遇到驚擾時通常會迅速縮入殼內，因此是相對容易緊張的龜種。"
+  },
+  {
+    "instruction": "斑龜與其他龜類有什麼差異？",
+    "input": "",
+    "output": "特徵明顯：尾巴長、體色有紫紅斑紋，辨識度高。\n\n是台灣本土龜類之一，應重視保育。"
+  },
+  {
+    "instruction": "長頸龜是什麼？有什麼特徵？",
+    "input": "",
+    "output": "學名：Chelodina siebenrocki\n\n英文名：Snake-Necked Turtle\n\n別名：蛇頸龜\n\n科別：蛇頸龜科\n\n攻擊性：低～中等\n\n水棲性：肉食性\n\n特徵：\n\n屬世界上現存最古老的爬蟲類之一\n\n頸部極長、頭部與頸部無法收進背甲，只能將頭側彎貼合貼近背甲來保護自己"
+  },
+  {
+    "instruction": "什麼是豬鼻龜？牠有什麼特徵？",
+    "input": "",
+    "output": "學名：Carettochelys insculpta\n\n英文名：Fly River Turtle / Pig-nosed Turtle\n\n別名：大洋洲豬鼻龜、豬鼻龜\n\n科別：同頸龜科\n\n攻擊性：低～中等\n\n水棲性：雜食性\n\n特徵：\n\n背甲最大可達 70 公分\n\n顏色多為灰色或橄欖色，皮膚有皺紋\n\n四肢像海龜一樣有鰭狀肢\n\n鼻子酷似豬鼻，因此得名「豬鼻龜」\n\n是唯一完全水棲的淡水龜類，除了產卵，其餘時間皆在水中生活"
+  },
+  {
+    "instruction": "什麼是「真鱷龜」？牠有什麼特徵？",
+    "input": "",
+    "output": "學名：Macrochelys temminckii\n\n英文名：Alligator Snapping Turtle\n\n別名：鱷龜、美國鱷龜\n\n科別：鱷龜科\n\n攻擊性：高（紅）\n\n水棲性：肉食性\n\n特徵：\n\n背甲最大可達 80 公分，厚重且三行大鱗板形成鋸齒狀\n\n顏色為灰色、褐色、黑色或附綠藻色\n\n體型巨大，常出現在河川、湖泊中"
+  },
+  {
+    "instruction": "麝香龜主要生活在哪裡？喜歡怎樣的環境？",
+    "input": "",
+    "output": "牠們大多生活在有大量植被的地點\n\n常見於水流緩慢的池塘、溪流與沼澤\n\n喜歡躲藏與棲息於水草、石縫中"
+  },
+  {
+    "instruction": "麝香龜的名字是怎麼來的？",
+    "input": "",
+    "output": "因為麝香龜遇到威脅時，會從麝香腺釋放出一種具有氣味的分泌物，因此得名「麝香龜」。"
+  },
+  {
+    "instruction": "什麼是黑胸葉龜？牠有什麼特徵？",
+    "input": "",
+    "output": "學名：Geoemyda spengleri\n\n英文名：Black Breasted Leaf Turtle\n\n別名：段尾山龜、十二棱龜\n\n科別：地龜科\n\n攻擊性：低（綠）\n\n水棲性：半水棲（黃色圓點）\n\n特徵：\n\n背甲最長約 16 公分\n\n背甲五邊形、呈深橘色或棕褐色，具三條脊稜，如同葉片造型，因此得名「葉龜」\n\n頭部較小，眼睛大、外觀靈動，外貌辨識度高"
+  },
+  {
+    "instruction": "黑胸葉龜吃什麼？",
+    "input": "",
+    "output": "食性偏雜食\n\n吃植物、昆蟲、小型節肢動物等"
+  },
+  {
+    "instruction": "這種龜在野外好找嗎？",
+    "input": "",
+    "output": "由於牠的外形容易辨識，且外觀吸引人，因此常遭過度捕捉\n\n在原產地數量正逐漸減少，需加強保育"
+  },
+  {
+    "instruction": "牠們的顏色有什麼用途嗎？",
+    "input": "",
+    "output": "體色偏褐可作為保護色，利於躲藏於落葉堆或林地中，具有良好的擬態效果"
+  },
+  {
+    "instruction": "星點龜是什麼？有什麼特徵？",
+    "input": "",
+    "output": "學名：Clemmys guttata\n\n英文名：Spotted Turtle\n\n別名：點點龜\n\n科別：澤龜科\n\n攻擊性：低（綠）\n\n水棲性：雜食（綠）\n\n外觀特徵：\n\n背甲最長 12.5 公分，屬小型龜\n\n背甲為黑色，上有黃色、白色或橘色斑點\n\n頭部、頸部和四肢也可能有斑點\n\n頗具觀賞價值！"
+  },
+  {
+    "instruction": "什麼是黑瘤地圖龜？有什麼外觀特徵？",
+    "input": "",
+    "output": "學名：Graptemys nigrinoda\n\n英文名：Black-knobbed Sawback Turtle\n\n別名：鋸緣龜\n\n科別：澤龜科\n\n攻擊性：低（綠色）\n\n水棲性：雜食（綠色）\n\n外觀特徵：\n\n雄龜背甲約 10 公分，雌龜可達 19 公分\n\n背甲中央有突出的黑色尖瘤，造型特別\n\n背甲像星空地圖般美麗，因此又稱「幽靈龜」"
+  },
+  {
+    "instruction": "黑瘤地圖龜生活在哪裡？喜歡什麼環境？",
+    "input": "",
+    "output": "原生於美國阿拉巴馬州與密西西比州\n\n喜歡住在河川中\n\n水域需乾淨、有浮台與曬背空間"
+  },
+  {
+    "instruction": "歐洲澤龜的英文名稱是什麼？（簡單說明）",
+    "input": "",
+    "output": "European Pond Turtle。"
+  },
+  {
+    "instruction": "歐洲澤龜屬於哪一類動物？（簡單說明）",
+    "input": "",
+    "output": "爬蟲類（龜鱉目）。"
+  },
+  {
+    "instruction": "歐洲澤龜的背甲可以閉合嗎？",
+    "input": "",
+    "output": "可以，牠們的腹甲有韌帶，可以閉合背甲。"
+  },
+  {
+    "instruction": "歐洲澤龜最大可以長到多大？？可以說明嗎",
+    "input": "",
+    "output": "牠們通常不會太大，多在20公分上下，少數可達25公分。"
+  },
+  {
+    "instruction": "歐洲澤龜吃哪種？",
+    "input": "",
+    "output": "主要攝食小型動物，也會補充植物性食物。"
+  },
+  {
+    "instruction": "請問歐洲澤龜是肉食還是草食？",
+    "input": "",
+    "output": "屬於雜食性，會同時攝取動植物。"
+  },
+  {
+    "instruction": "歐洲澤龜是肉食還是草食？（簡單說明）",
+    "input": "",
+    "output": "雜食。"
+  },
+  {
+    "instruction": "請問卡羅萊納箱龜的學名是什麼？",
+    "input": "",
+    "output": "卡羅萊納箱龜的學名是 Terrapene carolina carolina。"
+  },
+  {
+    "instruction": "你知道卡羅萊納箱龜的學名是什麼？",
+    "input": "",
+    "output": "這種龜的學名叫做 Terrapene carolina carolina。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜的學名是什麼？（簡單說明）",
+    "input": "",
+    "output": "Terrapene carolina carolina。"
+  },
+  {
+    "instruction": "請問卡羅萊納箱龜的英文名稱是什麼？",
+    "input": "",
+    "output": "卡羅萊納箱龜的英文名稱是 Eastern Box Turtle。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜的英文名稱是哪一種？",
+    "input": "",
+    "output": "卡羅萊納箱龜在英文中稱為 Eastern Box Turtle。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜的英文名稱是什麼？（簡單說明）",
+    "input": "",
+    "output": "Eastern Box Turtle。"
+  },
+  {
+    "instruction": "想了解一下，卡羅萊納箱龜最大可以長多大？",
+    "input": "",
+    "output": "一般情況下，最大體長大約落在18公分左右。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜生活在哪裡？呢？",
+    "input": "",
+    "output": "多半出現在草原或森林這類棲地。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜生活在哪裡？大概是什麼情況",
+    "input": "",
+    "output": "多分布於草原或森林等地，屬於陸棲環境。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜吃哪一種？",
+    "input": "",
+    "output": "這種箱龜主要攝食植物以及各種昆蟲。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜吃什麼？可以說明一下嗎",
+    "input": "",
+    "output": "牠以植物和昆蟲為主要食物類型。"
+  },
+  {
+    "instruction": "卡羅萊納箱龜吃什麼？大概是什麼情況",
+    "input": "",
+    "output": "牠的食性以植物和昆蟲為主，屬於雜食。"
+  },
+  {
+    "instruction": "你知道卡羅萊納箱龜有什麼特殊構造？",
+    "input": "",
+    "output": "這種龜的腹甲有鉸鏈構造，能讓身體完全被殼包住。"
+  },
+  {
+    "instruction": "三趾箱龜的學名是什麼？可以怎麼說",
+    "input": "",
+    "output": "可以說牠的學名為 Terrapene carolina triunguis。"
+  },
+  {
+    "instruction": "你了解三趾箱龜的腳有什麼特徵？",
+    "input": "",
+    "output": "這種龜的後肢常見有三或四個腳趾。"
+  },
+  {
+    "instruction": "三趾箱龜的腳有什麼特徵？具體是怎樣",
+    "input": "",
+    "output": "具體來說，後肢通常只有三到四個腳趾。"
+  },
+  {
+    "instruction": "三趾箱龜的腳有什麼特徵？可以怎麼說",
+    "input": "",
+    "output": "可以說牠的後肢多為三趾或四趾的型態。"
+  },
+  {
+    "instruction": "可以告訴我三趾箱龜外觀有什麼辨識特徵？",
+    "input": "",
+    "output": "牠的頭部會出現橘紅色的點狀花紋。"
+  },
+  {
+    "instruction": "我想知道三趾箱龜外觀有什麼辨識特徵？",
+    "input": "",
+    "output": "其辨識特徵之一是頭部帶有橘紅色斑點。"
+  },
+  {
+    "instruction": "三趾箱龜外觀有什麼辨識特徵？是什麼情況",
+    "input": "",
+    "output": "外觀上可看到頭部具有橘紅色的斑點特徵。"
+  },
+  {
+    "instruction": "關於三趾箱龜外觀有什麼辨識特徵？",
+    "input": "",
+    "output": "牠的頭部通常帶有橘紅色的花紋作為辨識。"
+  },
+  {
+    "instruction": "三趾箱龜外觀有什麼辨識特徵？可以怎麼說",
+    "input": "",
+    "output": "可以說牠的頭部有橘紅色斑點是重要特徵。"
+  },
+  {
+    "instruction": "我想知道三趾箱龜常見於哪些地區？",
+    "input": "",
+    "output": "這種龜主要生活在加拿大、美國東部和墨西哥。"
+  },
+  {
+    "instruction": "你了解三趾箱龜常見於哪些地區？",
+    "input": "",
+    "output": "牠的分布地區主要是加拿大、美國東部以及墨西哥。"
+  },
+  {
+    "instruction": "三趾箱龜常見於哪些地區？具體是怎樣",
+    "input": "",
+    "output": "具體來看，分布在加拿大、美國東部及墨西哥地區。"
+  },
+  {
+    "instruction": "三趾箱龜常見於哪些地區？可以怎麼說",
+    "input": "",
+    "output": "可以說牠主要出現在加拿大、美國東部及墨西哥一帶。"
+  },
+  {
+    "instruction": "三趾箱龜的市場情況如何？",
+    "input": "",
+    "output": "在寵物市場中較為常見。"
+  },
+  {
+    "instruction": "請問三趾箱龜的市場情況如何？",
+    "input": "",
+    "output": "牠在寵物市場裡屬於常見的種類。"
+  },
+  {
+    "instruction": "我想知道三趾箱龜的市場情況如何？",
+    "input": "",
+    "output": "目前在寵物市場中可以經常見到。"
+  },
+  {
+    "instruction": "三趾箱龜適應能力如何？是什麼情況",
+    "input": "",
+    "output": "整體來說，適應力良好，活動範圍偏大。"
+  },
+  {
+    "instruction": "三趾箱龜適應能力如何？具體是怎樣",
+    "input": "",
+    "output": "具體而言，牠適應環境的能力不錯，活動範圍也廣。"
+  },
+  {
+    "instruction": "三趾箱龜適應能力如何？大致如何",
+    "input": "",
+    "output": "大致來看，適應能力佳，活動範圍較廣。"
+  },
+  {
+    "instruction": "星龜的學名是什麼？具體是如何",
+    "input": "",
+    "output": "具體而言，學名是 Geochelone elegans。"
+  },
+  {
+    "instruction": "星龜的學名是什麼？大概怎麼樣",
+    "input": "",
+    "output": "大致上其學名為 Geochelone elegans。"
+  },
+  {
+    "instruction": "可以告訴我星龜的英文名稱是什麼？",
+    "input": "",
+    "output": "牠的英文名字叫 Indian Star Tortoise。"
+  },
+  {
+    "instruction": "你知道星龜的英文名稱是什麼？",
+    "input": "",
+    "output": "星龜在英文中稱為 Indian Star Tortoise。"
+  },
+  {
+    "instruction": "星龜的英文名稱是什麼？（簡單說明）",
+    "input": "",
+    "output": "Indian Star Tortoise。"
+  },
+  {
+    "instruction": "星龜的外觀有什麼特徵？是什麼樣的情況",
+    "input": "",
+    "output": "一般來說，背甲是黑色並有黃色放射紋。"
+  },
+  {
+    "instruction": "星龜的外觀有什麼特徵？大概怎麼樣",
+    "input": "",
+    "output": "大致上呈黑色殼並帶有黃色放射花紋。"
+  },
+  {
+    "instruction": "星龜的外觀有什麼特徵？（簡單說明）",
+    "input": "",
+    "output": "黑色背甲＋黃色放射紋。"
+  },
+  {
+    "instruction": "星龜最大可以長多大？具體是如何",
+    "input": "",
+    "output": "具體而言最大約25公分。"
+  },
+  {
+    "instruction": "星龜最大可以長多大？（簡單說明）",
+    "input": "",
+    "output": "約25公分。"
+  },
+  {
+    "instruction": "星龜生活在哪些地區？",
+    "input": "",
+    "output": "主要分布於印度、巴基斯坦與斯里蘭卡。"
+  },
+  {
+    "instruction": "可以告訴我星龜生活在哪些地區？",
+    "input": "",
+    "output": "牠主要生活在印度、巴基斯坦與斯里蘭卡。"
+  },
+  {
+    "instruction": "我想了解星龜生活在哪些地區？",
+    "input": "",
+    "output": "這種龜分布於印度、巴基斯坦和斯里蘭卡。"
+  },
+  {
+    "instruction": "星龜吃什麼？",
+    "input": "",
+    "output": "牠主要以草、植物果實和花葉為食。"
+  },
+  {
+    "instruction": "可以告訴我星龜吃什麼？",
+    "input": "",
+    "output": "牠的食物包括草、果實和各類植物葉片。"
+  },
+  {
+    "instruction": "你知道星龜吃什麼？",
+    "input": "",
+    "output": "這種龜以草和植物性食物為主，例如果實與葉子。"
+  },
+  {
+    "instruction": "星龜吃什麼？（簡單說明）",
+    "input": "",
+    "output": "草＋植物果實＋花葉。"
+  },
+  {
+    "instruction": "烏龜冷血還是恆溫？",
+    "input": "",
+    "output": "烏龜屬於變溫動物，不是恆溫動物。"
+  },
+  {
+    "instruction": "烏龜殼會痛嗎？",
+    "input": "",
+    "output": "會，因為龜殼有神經和血液供應。"
+  },
+  {
+    "instruction": "烏龜是用肺還是鰓？",
+    "input": "",
+    "output": "用肺，不是用鰓。"
+  },
+  {
+    "instruction": "烏龜能一直待在水裡嗎？",
+    "input": "",
+    "output": "不能無限待在水下，水棲龜也需要浮上來呼吸。"
+  },
+  {
+    "instruction": "烏龜是在哪裡吸氣？",
+    "input": "",
+    "output": "通常透過鼻孔吸入空氣，再由肺完成呼吸。"
+  },
+  {
+    "instruction": "烏龜要不要浮上來呼吸？",
+    "input": "",
+    "output": "要，多數水棲烏龜都得定期浮出水面換氣。"
+  },
+  {
+    "instruction": "烏龜壽命長不長？",
+    "input": "",
+    "output": "通常算長壽，尤其比不少常見寵物更能活。"
+  },
+  {
+    "instruction": "烏龜有可能活超過一百年嗎？",
+    "input": "",
+    "output": "有些大型陸龜確實可能活到一百年以上。"
+  },
+  {
+    "instruction": "烏龜壽命主要看什麼？",
+    "input": "",
+    "output": "最主要還是看物種本身，再加上飼養與健康管理。"
+  },
+  {
+    "instruction": "烏龜長壽跟什麼有關？",
+    "input": "",
+    "output": "和品種、生活環境、營養狀況以及是否生病都有關。"
+  },
+  {
+    "instruction": "草食龜能吃水果嗎？",
+    "input": "",
+    "output": "可以少量，但一般不建議把水果當主食。"
+  },
+  {
+    "instruction": "烏龜怎麼繁殖？",
+    "input": "",
+    "output": "烏龜是卵生動物，交配後會產卵。"
+  },
+  {
+    "instruction": "幼龜從蛋裡出來要多久？",
+    "input": "",
+    "output": "通常要經過一段孵化期，短則數十天，長則好幾個月。"
+  },
+  {
+    "instruction": "烏龜孵化時間會固定嗎？",
+    "input": "",
+    "output": "不會，溫度和物種都會影響孵化速度。"
+  },
+  {
+    "instruction": "烏龜沒太陽怎麼辦？",
+    "input": "",
+    "output": "可用合適的UVB燈和加熱燈提供替代性的曬背環境。"
+  },
+  {
+    "instruction": "烏龜曬太陽對殼有幫助嗎？",
+    "input": "",
+    "output": "有，適當日照有助於甲殼與骨骼維持健康。"
+  },
+  {
+    "instruction": "烏龜需要照燈嗎？",
+    "input": "",
+    "output": "若室內日照不足，通常需要合適的照明與保溫設備。"
+  },
+  {
+    "instruction": "烏龜不曬會怎樣？",
+    "input": "",
+    "output": "可能影響體溫調節與鈣質利用，久了對健康不利。"
+  },
+  {
+    "instruction": "黑靴陸龜學名？",
+    "input": "",
+    "output": "學名是 Manouria emys phayrei。"
+  },
+  {
+    "instruction": "Manouria emys phayrei 是哪一種烏龜？",
+    "input": "",
+    "output": "Manouria emys phayrei 指的就是黑靴陸龜。"
+  },
+  {
+    "instruction": "這種靴腳陸龜的學名叫什麼名字？",
+    "input": "",
+    "output": "這種靴腳陸龜的學名是 Manouria emys phayrei。"
+  },
+  {
+    "instruction": "黑靴陸龜正式學名是？",
+    "input": "",
+    "output": "正式學名就是 Manouria emys phayrei。"
+  },
+  {
+    "instruction": "黑靴陸龜的英文名是什麼？",
+    "input": "",
+    "output": "英文名是 Burmese Black Giant Tortoise。"
+  },
+  {
+    "instruction": "分類上黑靴陸龜歸在什麼科？",
+    "input": "",
+    "output": "分類上，黑靴陸龜歸在陸龜科。"
+  },
+  {
+    "instruction": "黑靴陸龜科別？",
+    "input": "",
+    "output": "陸龜科。"
+  },
+  {
+    "instruction": "黑靴陸龜列在哪個科？",
+    "input": "",
+    "output": "頁面中將黑靴陸龜列為陸龜科。"
+  },
+  {
+    "instruction": "常見的靴腳陸龜是哪些？",
+    "input": "",
+    "output": "這頁列出的常見類型就是棕靴陸龜和黑靴陸龜。"
+  },
+  {
+    "instruction": "為什麼叫黑靴陸龜？外觀顏色怎樣？",
+    "input": "",
+    "output": "牠的外觀顏色偏深，整體接近全黑。"
+  },
+  {
+    "instruction": "黑靴陸龜顏色偏哪一種？",
+    "input": "",
+    "output": "顏色特徵就是偏黑，整體接近全黑。"
+  },
+  {
+    "instruction": "黑靴陸龜外觀顏色如何？",
+    "input": "",
+    "output": "這種龜的外觀顏色以接近全黑為主。"
+  },
+  {
+    "instruction": "顏色上，黑靴陸龜有什麼辨識點？",
+    "input": "",
+    "output": "辨識上可注意牠的體色相當深，接近全黑。"
+  },
+  {
+    "instruction": "黑靴陸龜偏好的棲地是？",
+    "input": "",
+    "output": "這種龜通常生活在潮濕的熱帶雨林中。"
+  },
+  {
+    "instruction": "黑靴陸龜龜通常生活在哪裡？",
+    "input": "",
+    "output": "資料指出黑靴陸龜喜歡潮濕的熱帶雨林。"
+  },
+  {
+    "instruction": "黑靴陸龜棲地呢？",
+    "input": "",
+    "output": "棲地以潮濕的熱帶雨林為主。"
+  },
+  {
+    "instruction": "野外的黑靴陸龜通常住哪？",
+    "input": "",
+    "output": "野外黑靴陸龜通常住在潮濕的熱帶雨林。"
+  },
+  {
+    "instruction": "黑靴陸龜比較喜歡乾燥地帶還是濕潤環境？",
+    "input": "",
+    "output": "牠明顯偏好濕潤環境，也就是潮濕的熱帶雨林。"
+  },
+  {
+    "instruction": "黑靴陸龜特別喜歡在什麼地方附近活動？",
+    "input": "",
+    "output": "牠尤其喜歡在溪流附近活動。"
+  },
+  {
+    "instruction": "黑靴陸龜偏好在哪附近活動？",
+    "input": "",
+    "output": "這種龜偏好在溪流附近行動。"
+  },
+  {
+    "instruction": "除了雨林之外，黑靴陸龜更常靠近哪裡？",
+    "input": "",
+    "output": "除了熱帶雨林，牠也特別喜歡溪流附近。"
+  },
+  {
+    "instruction": "乾燥環境對黑靴陸龜來說適合嗎？",
+    "input": "",
+    "output": "乾燥環境不太適合牠。"
+  },
+  {
+    "instruction": "棕靴陸龜是陸地生活的嗎？",
+    "input": "",
+    "output": "對，棕靴陸龜主要生活在陸地上。"
+  },
+  {
+    "instruction": "棕靴陸龜英文叫什麼名字？",
+    "input": "",
+    "output": "一般叫 Asian Brown Tortoise。"
+  },
+  {
+    "instruction": "為什麼叫棕靴陸龜？",
+    "input": "",
+    "output": "因為牠的外觀顏色偏棕色。"
+  },
+  {
+    "instruction": "黃頭陸龜喜歡什麼樣的環境？",
+    "input": "",
+    "output": "多棲息於熱帶或亞熱帶的丘陵與森林。"
+  },
+  {
+    "instruction": "輻射龜是什麼物種？",
+    "input": "",
+    "output": "輻射龜是一種陸龜，學名為 Astrochelys radiata。"
+  },
+  {
+    "instruction": "輻射龜主要吃什麼？",
+    "input": "",
+    "output": "以水果與多汁植物為主食。"
+  },
+  {
+    "instruction": "輻射龜生活在哪裡？",
+    "input": "",
+    "output": "多棲息於森林與林地環境。"
+  },
+  {
+    "instruction": "豹龜屬於哪一科？",
+    "input": "",
+    "output": "豹龜屬於陸龜科。"
+  },
+  {
+    "instruction": "為什麼叫豹龜？",
+    "input": "",
+    "output": "因為牠的花紋類似豹紋而得名。"
+  },
+  {
+    "instruction": "豹龜在陸龜中體型如何？",
+    "input": "",
+    "output": "屬於體型較大的陸龜之一。"
+  },
+  {
+    "instruction": "蘇卡達象龜英文怎麼說？",
+    "input": "",
+    "output": "英文名稱是 African Spurred Tortoise。"
+  },
+  {
+    "instruction": "蘇卡達象龜屬於哪一科？",
+    "input": "",
+    "output": "屬於陸龜科。"
+  },
+  {
+    "instruction": "亞達伯拉象龜是什麼物種？",
+    "input": "",
+    "output": "亞達伯拉象龜是一種大型陸龜，學名為 Geochelone gigantea。"
+  },
+  {
+    "instruction": "亞達伯拉象龜屬於哪一科？",
+    "input": "",
+    "output": "屬於陸龜科。"
+  },
+  {
+    "instruction": "亞達伯拉象龜可以長多大？",
+    "input": "",
+    "output": "成體腹甲最長可達120公分。"
+  },
+  {
+    "instruction": "亞達伯拉象龜體型算大嗎？",
+    "input": "",
+    "output": "屬於體型非常巨大的陸龜之一。"
+  },
+  {
+    "instruction": "餅乾龜英文怎麼說？",
+    "input": "",
+    "output": "英文名稱是 Pancake Tortoise。"
+  },
+  {
+    "instruction": "餅乾龜可以長多大？",
+    "input": "",
+    "output": "背甲長度最大約可達20公分。"
+  },
+  {
+    "instruction": "餅乾龜吃什麼？",
+    "input": "",
+    "output": "主要以植物與水果為食。"
+  },
+  {
+    "instruction": "紅腿龜外觀有什麼特徵？",
+    "input": "",
+    "output": "背甲呈深色，帶有淡黃色斑點。"
+  },
+  {
+    "instruction": "紅腿龜喜歡什麼環境？",
+    "input": "",
+    "output": "多棲息於熱帶草原與森林。"
+  },
+  {
+    "instruction": "紅腿龜吃什麼？",
+    "input": "",
+    "output": "以水果、花草與植物為主食。"
+  },
+  {
+    "instruction": "緣翹陸龜英文怎麼說？",
+    "input": "",
+    "output": "英文名稱是 Marginated Tortoise。"
+  },
+  {
+    "instruction": "緣翹陸龜外觀有什麼特徵？",
+    "input": "",
+    "output": "背甲呈深色，邊緣向外擴展形成特殊外型。"
+  },
+  {
+    "instruction": "緣翹陸龜適合混養嗎？",
+    "input": "",
+    "output": "不太適合，發情時可能會攻擊其他龜。"
+  },
+  {
+    "instruction": "海龜會一直待在陸地上嗎？",
+    "input": "",
+    "output": "不會，大部分時間都在海中活動，只有產卵時才上岸。"
+  },
+  {
+    "instruction": "海龜的身體有什麼特別構造？",
+    "input": "",
+    "output": "牠們的四肢演化成鰭狀，適合在水中游泳。"
+  },
+  {
+    "instruction": "為什麼需要保護海龜？",
+    "input": "",
+    "output": "因為牠們面臨滅絕危機，需要人類積極保育。"
+  },
+  {
+    "instruction": "哪些烏龜具有攻擊性需要特別注意？",
+    "input": "",
+    "output": "雜食性或肉食性的龜較具攻擊性，可能會攻擊動物或人類。"
+  },
+  {
+    "instruction": "養烏龜最基本的原則是什麼？",
+    "input": "",
+    "output": "要提供適當環境並注意健康狀況，確保牠們能健康成長。"
+  },
+  {
+    "instruction": "為什麼新龜需要隔離？",
+    "input": "",
+    "output": "避免將疾病傳染給其他烏龜。"
+  },
+  {
+    "instruction": "糞便檢查有什麼用途？",
+    "input": "",
+    "output": "用來檢查寄生蟲或消化狀況。"
+  },
+  {
+    "instruction": "放射線檢查可以看出什麼？",
+    "input": "",
+    "output": "可檢查肺部、骨骼或是否有異物。"
+  },
+  {
+    "instruction": "為什麼生病的烏龜需要食道管理？",
+    "input": "",
+    "output": "可以減少吞嚥困難與消化壓力，幫助恢復。"
+  },
+  {
+    "instruction": "為什麼飲食不均衡會影響烏龜健康？",
+    "input": "",
+    "output": "因為可能造成營養缺乏或過量，導致疾病。"
+  },
+  {
+    "instruction": "如何預防烏龜營養相關疾病？",
+    "input": "",
+    "output": "提供均衡飲食並避免過量或單一食物。"
+  },
+  {
+    "instruction": "烏龜呼吸道感染會有什麼症狀？",
+    "input": "",
+    "output": "可能出現呼吸困難、流鼻水與精神不佳。"
+  },
+  {
+    "instruction": "什麼原因會導致烏龜呼吸道疾病？",
+    "input": "",
+    "output": "多與溫差過大、環境不良或營養失衡有關。"
+  },
+  {
+    "instruction": "敗血症有哪些症狀？",
+    "input": "",
+    "output": "可能出現全身感染症狀與出血情形。"
+  },
+  {
+    "instruction": "什麼是尿酸結石？",
+    "input": "",
+    "output": "是一種因代謝異常形成的結石疾病。"
+  },
+  {
+    "instruction": "尿酸結石需要怎麼檢查？",
+    "input": "",
+    "output": "通常需透過X光檢查評估結石大小。"
+  },
+  {
+    "instruction": "如何幫助母龜順利產卵？",
+    "input": "",
+    "output": "提供安靜且適合的產卵環境。"
+  },
+  {
+    "instruction": "什麼是脫垂？",
+    "input": "",
+    "output": "是內部組織從體內突出到體外的情況。"
+  },
+  {
+    "instruction": "止血粉有什麼功能？",
+    "input": "",
+    "output": "用來幫助傷口止血。"
+  },
+  {
+    "instruction": "清潔水（消毒水）有什麼用途？",
+    "input": "",
+    "output": "用來消毒傷口與外部清潔。"
+  },
+  {
+    "instruction": "烏龜受傷時第一步該做什麼？",
+    "input": "",
+    "output": "應先止血並評估傷勢。"
+  },
+  {
+    "instruction": "烏龜呼吸異常怎麼辦？",
+    "input": "",
+    "output": "應立即就醫並避免延誤。"
+  },
+  {
+    "instruction": "華盛頓公約的目的為何？",
+    "input": "",
+    "output": "為了保護瀕危物種，避免因國際貿易而滅絕。"
+  },
+  {
+    "instruction": "沒有列入公約的物種可以自由交易嗎？",
+    "input": "",
+    "output": "通常不受公約限制，但仍可能受其他法規約束。"
+  },
+  {
+    "instruction": "華盛頓公約什麼時候生效？",
+    "input": "",
+    "output": "於1975年正式生效。"
+  },
+  {
+    "instruction": "什麼是野生動物保育法？",
+    "input": "",
+    "output": "是台灣用來保護野生動物及其棲地的法律。"
+  },
+  {
+    "instruction": "烏龜聽得到聲音嗎？",
+    "input": "",
+    "output": "可以，但聽力較弱。"
+  }
+]

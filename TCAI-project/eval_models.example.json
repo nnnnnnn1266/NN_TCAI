@@ -1,0 +1,12 @@
+[
+  {
+    "name": "TCAI",
+    "backend": "lora",
+    "adapter_path": "outputs/llama31-turtle-lora",
+    "system_prompt": "You are a professional turtle care assistant. Provide a clear, accurate, and practical answer."
+  },
+  {
+    "name": "Mock",
+    "backend": "mock"
+  }
+]

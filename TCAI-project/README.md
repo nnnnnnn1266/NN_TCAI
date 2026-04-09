@@ -27,8 +27,11 @@ TCAI-project/
 ├─ docs/
 ├─ export_gguf.py
 ├─ export_gguf.bat
+├─ evaluate.py
+├─ eval_models.example.json
 ├─ frontend/
 ├─ inference.py
+├─ split_dataset.py
 ├─ train.py
 ├─ train.bat
 ├─ requirements.txt
@@ -45,6 +48,12 @@ TCAI-project/
   把已訓練好的 LoRA adapter 匯出成 GGUF
 - [`export_gguf.bat`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/export_gguf.bat)
   Windows 一鍵 GGUF 匯出入口
+- [`evaluate.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/evaluate.py)
+  用同一份資料集重跑 TCAI 與 baseline 的評估指標
+- [`eval_models.example.json`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/eval_models.example.json)
+  評估模型設定範例，可自行加入其他 baseline
+- [`split_dataset.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/split_dataset.py)
+  把原始資料切成 train/test，方便做較公平的 A 方案評估
 - [`train.bat`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/train.bat)
   Windows 一鍵訓練入口
 - [`app/services/inference.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/app/services/inference.py)
@@ -78,6 +87,8 @@ TCAI-project/
 
 - [`data/train_example.json`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/data/train_example.json)
 - [`data/turtle_dataset_finetune_format.json`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/data/turtle_dataset_finetune_format.json)
+- [`data/turtle_dataset_train.json`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/data/turtle_dataset_train.json)
+- [`data/turtle_dataset_test.json`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/data/turtle_dataset_test.json)
 
 ## 安裝
 
@@ -197,6 +208,29 @@ Invoke-RestMethod -Uri http://127.0.0.1:8000/ask -Method Post -ContentType "appl
 
 ## 訓練
 
+### A 方案建議流程
+
+如果你要做較公平、又適合趕時間的比較，建議使用：
+
+- `train split` 來微調 TCAI
+- `test split` 來評估 TCAI 與 baseline
+
+目前這個 repo 已經切好：
+
+- `data/turtle_dataset_train.json`：1015 筆
+- `data/turtle_dataset_test.json`：254 筆
+
+如果你想重新切分，可使用：
+
+```powershell
+.conda312\python.exe split_dataset.py ^
+  --input_path data/turtle_dataset_finetune_format.json ^
+  --train_output data/turtle_dataset_train.json ^
+  --test_output data/turtle_dataset_test.json ^
+  --test_ratio 0.2 ^
+  --seed 42
+```
+
 ### Windows 一鍵訓練
 
 ```bat
@@ -218,6 +252,12 @@ train.bat --num_train_epochs 5 --batch_size 1
 
 ```bash
 py train.py --data_path data/turtle_dataset_finetune_format.json --output_dir outputs/llama31-turtle-lora
+```
+
+若你要使用 A 方案，請改用 train split：
+
+```powershell
+.conda312\python.exe train.py --data_path data/turtle_dataset_train.json --output_dir outputs/llama31-turtle-lora
 ```
 
 常用參數範例：
@@ -291,6 +331,77 @@ exports/llama31-turtle-gguf_gguf/Meta-Llama-3.1-8B.Q4_K_M.gguf
 .conda312\python.exe export_gguf.py ^
   --maximum_memory_usage 0.5
 ```
+
+## 重跑評估表格
+
+如果你想重跑表格中的數據，現在可以使用：
+
+```powershell
+.conda312\python.exe evaluate.py ^
+  --eval_data data/turtle_dataset_test.json ^
+  --models_config eval_models.example.json ^
+  --output_dir outputs/evaluations/latest
+```
+
+如果你想先快速檢查流程，可以只跑前幾筆：
+
+```powershell
+.conda312\python.exe evaluate.py ^
+  --models_config eval_models.example.json ^
+  --limit 5
+```
+
+`eval_models.example.json` 目前示範了：
+
+- `TCAI`：用本地 LoRA adapter 評估
+- `Mock`：用 mock fallback 評估
+
+你可以再加入其他 baseline，例如 Hugging Face 模型或本地 API。範例：
+
+```json
+[
+  {
+    "name": "TCAI",
+    "backend": "lora",
+    "adapter_path": "outputs/llama31-turtle-lora"
+  },
+  {
+    "name": "Qwen2.5-7B",
+    "backend": "hf",
+    "model_name": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  {
+    "name": "API",
+    "backend": "api",
+    "base_url": "http://127.0.0.1:8000"
+  }
+]
+```
+
+目前 `evaluate.py` 內建：
+
+- `F1-score`
+- `ROUGE-L`
+
+另外可選：
+
+- `BERTScore`
+- `Semantic Similarity`
+
+如果要一起算這兩項，可加上：
+
+```powershell
+.conda312\python.exe evaluate.py ^
+  --include_bertscore ^
+  --include_semantic_similarity
+```
+
+評估完成後會輸出：
+
+- `summary.json`
+- `summary.csv`
+- `summary.md`
+- 每個模型各自的 `*_predictions.json`
 
 ## FastAPI 與前端測試
 

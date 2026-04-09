@@ -25,6 +25,8 @@ TCAI-project/
 │  └─ main.py
 ├─ data/
 ├─ docs/
+├─ export_gguf.py
+├─ export_gguf.bat
 ├─ frontend/
 ├─ inference.py
 ├─ train.py
@@ -39,6 +41,10 @@ TCAI-project/
   使用 Unsloth 載入 4-bit LLaMA 3.1 8B，做資料驗證、prompt 格式化、LoRA 設定與 SFT 訓練
 - [`inference.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/inference.py)
   載入已訓練的 LoRA adapter，從命令列做推論
+- [`export_gguf.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/export_gguf.py)
+  把已訓練好的 LoRA adapter 匯出成 GGUF
+- [`export_gguf.bat`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/export_gguf.bat)
+  Windows 一鍵 GGUF 匯出入口
 - [`train.bat`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/train.bat)
   Windows 一鍵訓練入口
 - [`app/services/inference.py`](c:/Users/Teacher/Desktop/NN_TCAI/NN_TCAI/TCAI-project/app/services/inference.py)
@@ -240,6 +246,50 @@ py inference.py ^
   --adapter_path outputs/llama31-turtle-lora ^
   --instruction "You are a professional turtle care assistant. Provide a clear and accurate answer." ^
   --input_text "Why did my turtle suddenly stop eating?"
+```
+
+## 匯出 GGUF
+
+如果你想把目前訓練好的 LoRA 匯出成可下載的單一 GGUF 模型，可以使用：
+
+```powershell
+.conda312\python.exe export_gguf.py ^
+  --adapter_path outputs/llama31-turtle-lora ^
+  --output_dir exports/llama31-turtle-gguf ^
+  --quantization_method q4_k_m
+```
+
+Windows 也可以直接一鍵執行：
+
+```powershell
+.\export_gguf.bat
+```
+
+常用量化格式：
+
+- `q4_k_m`
+- `q5_k_m`
+- `q8_0`
+- `f16`
+
+輸出完成後，GGUF 檔案會在你指定的 `output_dir` 內。
+
+這台機器實測成功的輸出檔案位置為：
+
+```text
+exports/llama31-turtle-gguf_gguf/Meta-Llama-3.1-8B.Q4_K_M.gguf
+```
+
+注意：
+
+- 匯出的 GGUF 是「完整模型」，檔案會比 LoRA adapter 大很多。
+- 匯出過程需要能夠正確載入 base model 與 adapter。
+- Windows 首次匯出時，Unsloth 可能會自動準備 `llama.cpp`，因此第一次會比較久。
+- 如果匯出時顯示記憶體不足，可以把 `--maximum_memory_usage` 降低，例如：
+
+```powershell
+.conda312\python.exe export_gguf.py ^
+  --maximum_memory_usage 0.5
 ```
 
 ## FastAPI 與前端測試

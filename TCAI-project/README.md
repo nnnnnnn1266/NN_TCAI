@@ -87,6 +87,108 @@ pip install -r requirements.txt
 py -m pip install -r requirements.txt
 ```
 
+## Windows 新電腦安裝流程
+
+以下流程已在一台 Windows + NVIDIA RTX 5070 Ti 的新電腦上實際跑通。
+
+### 建議環境
+
+- 作業系統：Windows
+- Python：建議 `3.12`
+- GPU：NVIDIA GPU
+- 驅動：`nvidia-smi` 可正常執行
+
+### 1. 建立專案環境
+
+建議使用專案內的 Conda 環境：
+
+```powershell
+conda --no-plugins create --solver classic -p .conda312 python=3.12 pip -y
+```
+
+### 2. 安裝 PyTorch CUDA 版
+
+先裝 CUDA 版 PyTorch：
+
+```powershell
+.conda312\python.exe -m pip install torch==2.10.0+cu128 torchvision==0.25.0+cu128 torchaudio==2.10.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+```
+
+### 3. 安裝 Unsloth 與專案套件
+
+```powershell
+.conda312\python.exe -m pip install unsloth
+.conda312\python.exe -m pip install -r requirements.txt
+```
+
+### 4. 驗證 GPU / PyTorch / CUDA
+
+```powershell
+.conda312\python.exe -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.version.cuda); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'no-gpu')"
+```
+
+預期至少要看到：
+
+- `torch.cuda.is_available()` 為 `True`
+- 顯示 NVIDIA 顯卡名稱
+- 顯示 CUDA 版本
+
+### 5. 執行訓練
+
+目前 `train.bat` 會優先使用：
+
+- `.conda312\python.exe`
+- 否則 `.venv\Scripts\python.exe`
+- 否則退回系統 `py`
+
+所以直接執行：
+
+```powershell
+.\train.bat
+```
+
+### 6. 啟動 FastAPI
+
+```powershell
+.conda312\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+### 7. 測試 API 與首頁
+
+```powershell
+Invoke-RestMethod -Uri http://127.0.0.1:8000/health
+Invoke-WebRequest -Uri http://127.0.0.1:8000/
+```
+
+測試問答：
+
+```powershell
+$body = @{ question = "Why do aquatic turtles need a basking area?" } | ConvertTo-Json
+Invoke-RestMethod -Uri http://127.0.0.1:8000/ask -Method Post -ContentType "application/json" -Body $body
+```
+
+如果 LoRA 成功載入，`/health` 應會回傳類似：
+
+```json
+{
+  "status": "ok",
+  "mode": "lora",
+  "detail": "Loaded adapter from: ...\\outputs\\llama31-turtle-lora"
+}
+```
+
+## 這次實測結果
+
+在這台新電腦上已完成：
+
+- 建立 `.conda312`
+- 安裝 CUDA 版 PyTorch、Unsloth、FastAPI 相依
+- 驗證 GPU / CUDA 可用
+- 成功執行 `train.bat`
+- 成功產出 `outputs/llama31-turtle-lora`
+- 成功啟動 FastAPI
+- 成功測試 `/health`、首頁 `/`、以及 `/ask`
+
 ## 訓練
 
 ### Windows 一鍵訓練

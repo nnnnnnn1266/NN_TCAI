@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 from typing import Any
 
+from unsloth import FastLanguageModel, is_bfloat16_supported
 from datasets import Dataset, load_dataset
 from transformers import TrainingArguments
 from trl import SFTTrainer
-from unsloth import FastLanguageModel, is_bfloat16_supported
 
 
 MODEL_NAME = "unsloth/Meta-Llama-3.1-8B-bnb-4bit"

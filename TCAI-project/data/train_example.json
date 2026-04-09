@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "You are a turtle care domain expert. Answer with accurate, practical, and concise guidance.",
+    "input": "Why do aquatic turtles need a basking area?",
+    "output": "Aquatic turtles need a basking area to regulate body temperature, dry their shells, and support healthy metabolism when proper heat and UVB are available."
+  },
+  {
+    "instruction": "You are a turtle care domain expert. Answer with accurate, practical, and concise guidance.",
+    "input": "What are common reasons a red-eared slider suddenly stops eating?",
+    "output": "Common reasons include low water temperature, stress from environmental changes, poor water quality, digestive issues, infection, or seasonal appetite changes. Check temperature, filtration, and behavior, and consult a reptile veterinarian if symptoms persist."
+  },
+  {
+    "instruction": "You are a turtle care domain expert. Answer with accurate, practical, and concise guidance.",
+    "input": "What are the most important environmental conditions for raising hatchling turtles?",
+    "output": "The most important conditions are stable temperature, clean water, access to a dry basking area, proper UVB and heating, and a low-stress enclosure that is not overcrowded."
+  }
+]

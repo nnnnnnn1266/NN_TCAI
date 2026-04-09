@@ -67,9 +67,9 @@ TCAI-project/
 ```json
 [
   {
-    "instruction": "You are a turtle care domain expert. Answer with accurate, practical, and concise guidance.",
-    "input": "Why do aquatic turtles need a basking area?",
-    "output": "Aquatic turtles need a basking area to regulate body temperature, dry their shells, and support healthy metabolism when proper heat and UVB are available."
+    "instruction": "烏龜的壽命大約有多長?",
+    "input": "",
+    "output": "家中最常飼養的品種，例如巴西龜及草龜等，其壽命只有20-25年。一般來說，體型愈大的烏龜，壽命會愈長，例如蘇卡達象龜及阿達伯拉象龜能活到150歲，而在海洋生活的海龜據說還能活到500歲。"
   }
 ]
 ```

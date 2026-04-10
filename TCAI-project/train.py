@@ -34,6 +34,36 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--lora_r", type=int, default=16, help="LoRA rank.")
     parser.add_argument("--lora_alpha", type=int, default=16, help="LoRA alpha.")
     parser.add_argument("--lora_dropout", type=float, default=0.0, help="LoRA dropout.")
+    parser.add_argument(
+        "--use_lora",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Whether to attach LoRA adapters.",
+    )
+    parser.add_argument(
+        "--load_in_4bit",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Whether to load the model in 4-bit mode.",
+    )
+    parser.add_argument(
+        "--load_in_16bit",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Whether to request 16-bit loading.",
+    )
+    parser.add_argument(
+        "--full_finetuning",
+        action=argparse.BooleanOptionalAction,
+        default=False,
+        help="Enable full finetuning instead of PEFT/LoRA.",
+    )
+    parser.add_argument(
+        "--optimizer",
+        type=str,
+        default="adamw_8bit",
+        help="Optimizer name passed to TrainingArguments.",
+    )
     return parser.parse_args()
 
 
@@ -120,32 +150,35 @@ def main() -> None:
         model_name=args.model_name,
         max_seq_length=args.max_seq_length,
         dtype=None,
-        load_in_4bit=True,
+        load_in_4bit=args.load_in_4bit,
+        load_in_16bit=args.load_in_16bit,
+        full_finetuning=args.full_finetuning,
     )
 
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
-    model = FastLanguageModel.get_peft_model(
-        model,
-        r=args.lora_r,
-        target_modules=[
-            "q_proj",
-            "k_proj",
-            "v_proj",
-            "o_proj",
-            "gate_proj",
-            "up_proj",
-            "down_proj",
-        ],
-        lora_alpha=args.lora_alpha,
-        lora_dropout=args.lora_dropout,
-        bias="none",
-        use_gradient_checkpointing="unsloth",
-        random_state=args.seed,
-        use_rslora=False,
-        loftq_config=None,
-    )
+    if args.use_lora and not args.full_finetuning:
+        model = FastLanguageModel.get_peft_model(
+            model,
+            r=args.lora_r,
+            target_modules=[
+                "q_proj",
+                "k_proj",
+                "v_proj",
+                "o_proj",
+                "gate_proj",
+                "up_proj",
+                "down_proj",
+            ],
+            lora_alpha=args.lora_alpha,
+            lora_dropout=args.lora_dropout,
+            bias="none",
+            use_gradient_checkpointing="unsloth",
+            random_state=args.seed,
+            use_rslora=False,
+            loftq_config=None,
+        )
 
     train_dataset = build_training_dataset(data_path, tokenizer)
 
@@ -166,7 +199,7 @@ def main() -> None:
             fp16=use_fp16,
             bf16=use_bf16,
             logging_steps=args.logging_steps,
-            optim="adamw_8bit",
+            optim=args.optimizer,
             weight_decay=0.01,
             lr_scheduler_type="linear",
             seed=args.seed,
@@ -180,7 +213,12 @@ def main() -> None:
     model.save_pretrained(str(output_dir))
     tokenizer.save_pretrained(str(output_dir))
 
-    print(f"Training finished. LoRA adapter saved to: {output_dir}")
+    if args.full_finetuning:
+        print(f"Training finished. Full fine-tuned model saved to: {output_dir}")
+    elif args.use_lora:
+        print(f"Training finished. LoRA adapter saved to: {output_dir}")
+    else:
+        print(f"Training finished. Model saved to: {output_dir}")
 
 
 if __name__ == "__main__":

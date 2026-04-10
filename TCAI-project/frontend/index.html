@@ -41,8 +41,20 @@
         box-shadow: 0 20px 50px rgba(46, 36, 24, 0.08);
       }
 
+      .hero {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 8px;
+      }
+
+      .hero-icon {
+        font-size: clamp(2.2rem, 5vw, 3.2rem);
+        line-height: 1;
+      }
+
       h1 {
-        margin: 0 0 8px;
+        margin: 0;
         font-size: clamp(2rem, 4vw, 3rem);
       }
 
@@ -127,7 +139,10 @@
   </head>
   <body>
     <main class="app">
-      <h1>Turtle Care AI</h1>
+      <div class="hero">
+        <div class="hero-icon" aria-hidden="true">🐢</div>
+        <h1>Turtle Care AI</h1>
+      </div>
       <p>
         Ask a turtle care question through the web UI. If a trained LoRA adapter
         is available, the backend will use it automatically; otherwise it falls

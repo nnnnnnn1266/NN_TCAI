@@ -14,7 +14,9 @@ env/
 logs/
 
 outputs/
+exports/
 unsloth_compiled_cache/
+tmp_*.txt
 
 .DS_Store
 Thumbs.db

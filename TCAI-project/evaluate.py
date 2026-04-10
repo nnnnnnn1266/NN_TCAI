@@ -224,10 +224,10 @@ class BaseRunner:
 
 class MockRunner(BaseRunner):
     def answer(self, instruction: str, input_text: str) -> str:
-        from app.services.inference import generate_answer
+        from app.services.inference import _mock_answer
 
         question = input_text.strip() or instruction.strip()
-        return generate_answer(question)
+        return _mock_answer(question)
 
 
 class ApiRunner(BaseRunner):
@@ -251,13 +251,15 @@ class ApiRunner(BaseRunner):
         return str(data["answer"])
 
 
-class LoraRunner(BaseRunner):
+class UnslothRunner(BaseRunner):
     def __init__(
         self,
-        adapter_path: str,
+        model_name: str,
         max_seq_length: int,
         max_new_tokens: int,
         system_prompt: str,
+        load_in_4bit: bool = True,
+        load_in_16bit: bool = False,
     ) -> None:
         import torch
         from unsloth import FastLanguageModel
@@ -266,10 +268,11 @@ class LoraRunner(BaseRunner):
         self.max_new_tokens = max_new_tokens
         self.system_prompt = system_prompt
         self.model, self.tokenizer = FastLanguageModel.from_pretrained(
-            model_name=adapter_path,
+            model_name=model_name,
             max_seq_length=max_seq_length,
             dtype=None,
-            load_in_4bit=True,
+            load_in_4bit=load_in_4bit,
+            load_in_16bit=load_in_16bit,
         )
         FastLanguageModel.for_inference(self.model)
 
@@ -346,11 +349,22 @@ def build_runner(config: dict[str, Any], args: argparse.Namespace) -> BaseRunner
     if backend == "api":
         return ApiRunner(base_url=config["base_url"])
     if backend == "lora":
-        return LoraRunner(
-            adapter_path=config["adapter_path"],
+        return UnslothRunner(
+            model_name=config["adapter_path"],
             max_seq_length=args.max_seq_length,
             max_new_tokens=args.max_new_tokens,
             system_prompt=config.get("system_prompt", DEFAULT_SYSTEM_PROMPT),
+            load_in_4bit=config.get("load_in_4bit", True),
+            load_in_16bit=config.get("load_in_16bit", False),
+        )
+    if backend == "unsloth":
+        return UnslothRunner(
+            model_name=config["model_name"],
+            max_seq_length=args.max_seq_length,
+            max_new_tokens=args.max_new_tokens,
+            system_prompt=config.get("system_prompt", DEFAULT_SYSTEM_PROMPT),
+            load_in_4bit=config.get("load_in_4bit", True),
+            load_in_16bit=config.get("load_in_16bit", False),
         )
     if backend == "hf":
         return HfRunner(

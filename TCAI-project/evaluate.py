@@ -22,8 +22,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--eval_data",
         type=str,
-        default="data/turtle_dataset_finetune_format.json",
-        help="Evaluation dataset JSON path.",
+        default="data/turtle_dataset_test.json",
+        help="Evaluation dataset JSON path. Defaults to the held-out test split.",
     )
     parser.add_argument(
         "--models_config",
